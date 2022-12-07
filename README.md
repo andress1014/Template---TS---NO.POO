@@ -12,12 +12,12 @@ TODO: Guide users through getting your code up and running on their own system. 
 # Dockerización de aplicación 
 Se debe construir el docker a partir del dockerfile de la raiz del proyecto
 ```
-docker build . --build-arg PROFILE=stage -t api-sales-assists
+docker build . --build-arg PROFILE=stage -t api
 ```
 
 Despues de construida la imagen docker ya se puede ejecutar el container
 ```
-docker run --restart=always -p 6000:3001 --name api-sales-assists api-sales-assists
+docker run --restart=always -p 6000:3001 --name api api
 ``` 
 
 # Build and Test
