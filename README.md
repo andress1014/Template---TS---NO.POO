@@ -1,5 +1,5 @@
 # Introduction 
-TODO: Api rest con los servicios para la adquisicion de uan asistencia de Vanti. 
+TODO: Api rest con los servicios de una aplicacion
 
 
 # Getting Started
