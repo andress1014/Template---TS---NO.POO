@@ -1,0 +1,39 @@
+{
+  "name": "plataya",
+  "version": "1.0.0",
+  "description": "Api - PlataYa",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "test",
+    "dev": "nodemon",
+    "start": "node ./dist/index.js",
+    "stage": "SET NODE_ENV=stage & nodemon"
+  },
+  "author": "Plata Ya",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/cors": "^2.8.13",
+    "@types/dotenv-flow": "^3.2.0",
+    "@types/express": "^4.17.14",
+    "@types/jsonwebtoken": "^8.5.9",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-jsdoc-swagger": "^1.8.0",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.26.0"
+  }
+}
